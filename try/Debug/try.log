@@ -1,0 +1,29 @@
+﻿Сборка начата 09.04.2017 15:14:35.
+     1>Проект "G:\work\try\try\try.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         G:\VS13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>g:\work\try\try\stack.h(22): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>g:\work\try\try\stack.h(22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>g:\work\try\try\stack.h(47): error C2061: синтаксическая ошибка: идентификатор "Element"
+     1>g:\work\try\try\stack.h(54): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Spop"
+     1>g:\work\try\try\stack.h(54): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>g:\work\try\try\stack.h(55): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>g:\work\try\try\stack.h(60): warning C4183: Spop: отсутствие возвращаемого типа; предполагается функция-член, возвращающая "int"
+     1>g:\work\try\try\stack.h(34): error C2065: ps: необъявленный идентификатор
+     1>g:\work\try\try\stack.h(34): error C2061: синтаксическая ошибка: идентификатор "Element"
+     1>g:\work\try\try\stack.h(43): error C2065: ps: необъявленный идентификатор
+     1>g:\work\try\try\stack.h(43): error C2541: delete: нельзя удалять объекты, не являющиеся указателями
+     1>g:\work\try\try\stack.h(44): error C2065: ps: необъявленный идентификатор
+     1>g:\work\try\try\stack.h(49): error C2065: ps: необъявленный идентификатор
+     1>g:\work\try\try\stack.h(49): error C2065: t: необъявленный идентификатор
+     1>g:\work\try\try\stack.h(58): error C2065: ps: необъявленный идентификатор
+     1>g:\work\try\try\tree.h(79): error C2660: Stack::Spush: функция не принимает 1 аргументов
+     1>g:\work\try\try\tree.h(86): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "int" (или приемлемое преобразование отсутствует)
+                 g:\work\try\try\tree.h(17): может быть "Element &Element::operator =(const Element &)"
+                 при попытке сопоставить список аргументов "(Element, int)"
+     1>Сборка проекта "G:\work\try\try\try.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.23
